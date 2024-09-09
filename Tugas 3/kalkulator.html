@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleKalkulator.css">
+    <script src="scriptKalkulator.js" defer></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Kalkulator Sederhana</h1>
+        <div class="content">
+            <form name="convert">
+                <p><b>Bilangan 1</b> <input id="num1" type="text"></p>
+                <p><b>Bilangan 2</b> <input id="num2" type="text"></p>
+                <p>
+                <p><b>Hasil </b> <input type="text" id="result" disabled></p>
+                    <input id="submit" type="button" value="+" onclick="addNum()"> 
+                    <input id="submit" type="button" value="-" onclick="subNum()"> 
+                    <input id="submit" type="button" value="x" onclick="mulNum()"> 
+                    <input id="submit" type="button" value="/" onclick="divNum()">
+                </p>
+            </form>
+        </div>
+    </div> 
+</body>
+</html>
