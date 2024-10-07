@@ -15,11 +15,11 @@
         <div class="container">
             <form method="POST" action="tambahaksi.php">
                 <p>NPM</p>
-                <input type="text" name="npm" required>
+                <input type="text" name="npm" placeholder="Masukkan NPM Anda" required>
                 <p>Nama</p>
-                <input type="text" name="nama" required>
+                <input type="text" name="nama" placeholder="Masukkan nama lengkap Anda" required>
                 <p>Alamat</p>
-                <textarea name="alamat" rows="3" cols="70" required></textarea>
+                <textarea name="alamat" rows="3" cols="70" placeholder="Masukkan alamat lengkap Anda" required></textarea>
                 <p>Tanggal Lahir</p>
                 <input type="date" name="tgl_lhr" required>
                 <p>Jenis Kelamin</p>
@@ -28,7 +28,7 @@
                     <input type="radio" name="jk" value="P" required> Perempuan
                 </label>
                 <p>Email</p>
-                <input type="email" name="email" required>
+                <input type="email" name="email" placeholder="contoh: abcd@example.com" required>
                 
                 <button type="submit" name="submit" value="submit">Tambah Data</button>
             </form>
