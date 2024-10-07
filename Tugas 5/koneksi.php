@@ -1,7 +1,7 @@
 <?php
     $host="localhost";
     $user="root";
-    $password="duhlupalagi";
+    $password="";
     $namadb="mhs";
 
     $inikoneksi=mysqli_connect($host,$user,$password,$namadb);
